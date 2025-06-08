@@ -1,4 +1,18 @@
-# Auto Selfie Capture for Smiling Faces using Python
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   # Auto Selfie Capture for Smiling Faces using Python
 
 This project captures a selfie automatically when a person smiles, using a webcam feed and facial landmarks detection powered by MediaPipe. When a smile is detected (based on facial landmark distance), a snapshot is saved and a notification sound is played.
 
@@ -35,7 +49,7 @@ pip install opencv-python mediapipe pyautogui
 
 1. Place a smile detection sound (sound.wav) in the correct path (adjust if needed).
 
-2. Run the Python script: python auto_selfie_smile.py
+2. Run the Python script: python smiling_selfie.py
 3. Look at the webcam and smile 😊
 
 4. When a smile is detected:
